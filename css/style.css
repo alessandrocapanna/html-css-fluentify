@@ -22,10 +22,7 @@ padding: 0 10%;
   display: table;
   clear: both;
 }
-.help {
-  background-color: #1ebf1e;
-  color: white;
-}
+
 /*** FINE REGOLE GENERALI ***/
 
 /*** INIZIO HEADER ***/
@@ -201,7 +198,6 @@ footer .footer .piano.input .select {
   border-top: none;
   border-left: none;
   border-right: none;
-  select-style-type:
 }
 footer .footer .piano.input a.visual.piano-button{
   text-decoration: none;
