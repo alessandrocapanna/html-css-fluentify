@@ -1,0 +1,227 @@
+/*** INIZIO RESET ***/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*** FINE RESET ***/
+
+/*** INIZIO REGOLE GENERALI ***/
+body {
+  font-family: "Roboto", Verdana;
+
+}
+ul {
+  list-style-type: none;
+}
+.conteiner {
+padding: 0 10%;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.help {
+  background-color: #1ebf1e;
+  color: white;
+}
+/*** FINE REGOLE GENERALI ***/
+
+/*** INIZIO HEADER ***/
+header {
+  color: white;
+  background-color: #0b345a;
+  height: 600px;
+  background-size: 1000px;
+  background-image: url(../img/background-header.png);
+  background-position: 110% 110%;
+  background-repeat: no-repeat;/* o  misure in % 2 */
+}
+
+/* inizio navigator */
+header .navigator .col{
+  float: left;
+}
+header .navigator .logo {
+  width: 15%;
+}
+header .navigator .col.menu-centrale {
+  width: 45%;
+}
+header .navigator .col.menu-dx {
+  padding-right: 0%;
+  width: 40%;
+  text-align: right;
+}
+header .navigator .col.menu-dx .menu li a.login {
+  border: 1px solid white;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+header .navigator .col.menu-dx .menu li a.piano {
+  border: 1px none white;
+  padding: 9px 15px;
+  border-radius: 5px;
+  background-color: #1ebf1e;
+}
+header .navigator .menu {
+  margin-top: 15px;
+  font-size: 14px;
+}
+header .navigator .menu a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+header .navigator .menu li {
+  margin-right: 10px;
+  display: inline-block;
+}
+/* fine navigator */
+
+/* inizio teaser */
+header .teaser h2 {
+  position:relative;
+  width: 700px;
+  padding-top: 250px;
+  font-size: 50px;
+}
+header .teaser span a.piano {
+  position: absolute;
+  top: 400px;
+  border: 1px none white;
+  padding: 11px 17px;
+  border-radius: 5px;
+  background-color: #1ebf1e;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+/* fine teser */
+/*** FINE HEADER ***/
+
+/*** FINE MAIN ***/
+/* inizio introduction */
+main .introduction {
+  padding: 30px;
+  font-weight:  bold;
+  font-size: 25px;
+  text-align: center;
+  background-color: lightgrey;
+}
+main .introduction p:last-child {
+  color: grey;
+  font-size: 22px
+}
+/* fine introduction */
+
+main .col.main {
+  text-align: center;
+  float: left;
+  width: 25%;
+}
+main .col.main .img img {
+
+  height: 120px;
+  width: 100px;
+  margin: auto;
+}
+main .col.main.choice-sx, main .col.main.choice-center {
+  margin-right:8%;
+}
+main .col.main h2 a {
+  text-decoration: none;
+  color: green;
+}
+main .col.main .titolo {
+  height: 90px;
+}
+main .col.main hr {
+  width: 16%;
+  margin: auto;
+  margin-top: 10px;
+}
+main .col.main .paragrafo {
+  padding-top: 20px;
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 30px;
+}
+
+main .col.piano{
+  float: left;
+  width: 40%;
+  margin-top: 50px;
+}
+main .col.piano.sx {
+  margin-right: 10%;
+}
+main .col.piano.dx h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+main .col.piano.dx p {
+  font-size: 25px;
+  color: grey;
+  margin-bottom: 20px;
+}
+main .col.piano.dx span a {
+  color: lightblue;
+  font-size: 20px;
+}
+/*** FINE MAIN ***/
+
+/***  INIZIO FOOTER ***/
+footer .footer {
+  background-color: lightgrey;
+  height: 120px;
+  width: 100%;
+}
+footer .footer .piano {
+  float:left;
+  padding-top: 35px;
+}
+footer .footer .piano.testo {
+  font-size: 20px;
+  width: 30%;
+  margin-right: 25%;
+}
+footer .footer .piano.input {
+  color: grey;
+  width: 35%;
+  font-size: 20px;
+  text-decoration: none;
+}
+footer .footer .piano.input .select {
+  font-size: 20px;
+  color: grey;
+  background-color: lightgrey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  select-style-type:
+}
+footer .footer .piano.input a.visual.piano-button{
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  background-color: #1ebf1e;
+}
+footer span.help a {
+  padding: 10px 10px 0px 10px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  font-size: 25px;
+  position:fixed;
+  bottom: 0;
+  right: 450px;
+  background-color: #1ebf1e;
+}
+/***  FINE FOOTER ***/
